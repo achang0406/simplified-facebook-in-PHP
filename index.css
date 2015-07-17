@@ -1,0 +1,75 @@
+
+/*-------------------------------------style for both index.php & the_wall.php---------------------------*/
+*{
+	/*outline: 1px solid gray;*/
+}
+.container-fluid{
+}
+	.rowOne{
+		background-color: black;
+		color: white;
+	}
+		.rowOne .title h1{
+			margin-left: 5%;
+		}
+		.rowOne .headerBoxes{
+			margin-top: .8%;
+		}
+	.rowTwo{
+		margin-top: 5%;
+	}
+		.rowTwo .signUp{
+			background-color: #C8C8C8;
+		}
+		.rowTwo .signUp h1{
+			margin-bottom: 3%;
+		}		
+		.rowTwo .half{
+			width: 49%;
+		}
+		.rowTwo .full{
+			width: 99%;
+			margin:2% 0%;
+		}
+		.ninja img{
+			width: 240px;
+		}
+		.newNinja img{
+			margin-top: 20px;
+			width: 115px;
+		}
+		#register{
+			margin:5% 0% 4% 80%;
+		}
+	.form-group span{
+		color: red;
+		font-weight: bolder;
+	}
+
+
+/*---------------------------------styling for the_wall-------------------------------*/
+.the_wall{
+	background-color: #F0F0F0;
+}
+	.rowMessages{
+		margin-top: 5%;
+		/*background-color: white;*/
+	}
+		.messageBox{
+			background-color: #D8D8D8;
+			outline: 1px solid #D8D8D8;
+		}
+			.commentBox{
+				background-color: #D8D8D8;
+				overflow-x: hidden;
+				overflow-y: visible;
+				max-height: 200px;
+			}
+			.messageHead{
+				background-color: white;
+			}
+			.commentTexts{
+/*				overflow-x: hidden;
+				overflow-y: visible;
+				max-height: 200px;*/
+			}
