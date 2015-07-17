@@ -1,4 +1,5 @@
 # simplified-facebook-in-PHP
+This was a Coding Dojo Assignment
 
 This is a fully functional webpage coded in PHP codeigniter with features including:
 
@@ -7,6 +8,6 @@ This is a fully functional webpage coded in PHP codeigniter with features includ
 - wall that allow users to post messages and comments within messages.
 
 Technologies included:
-PHP - MVC framework
-MySQL
-JQuery
+- PHP - MVC framework
+- MySQL
+- JQuery
